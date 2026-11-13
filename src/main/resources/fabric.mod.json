@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "streampop",
+  "version": "${version}",
+  "name": "Stream Pop",
+  "description": "Twitch chat as small light-blue pop-up cards on your Minecraft screen. Client-side.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.streampop.StreamPopMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
